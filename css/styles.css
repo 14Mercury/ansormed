@@ -165,7 +165,7 @@ h6 p {
 /* HERO END */
 
 /* SERVISEC START */
-.services{
+.services {
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
@@ -178,91 +178,116 @@ h6 p {
 	color: #000;
 	margin-bottom: 56px;
 }
-.services-list{
+.services-list {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	list-style: none;
-  padding: 0;
+	padding: 0;
 	margin: 0;
 	margin-bottom: 60px;
 }
-.services-item{
+.services-item {
 	display: flex;
 	align-items: center;
 }
-.services-item:not(last-child){
+.services-item:not(last-child) {
 	margin-bottom: 80px;
 }
 
-.services-img{
+.services-img {
 	margin-right: 64px;
 }
 
-.services-img img{
+.services-img img {
 	width: 200px;
 	height: 200px;
 }
-.services-info{
+.services-info {
 	max-width: 600px;
 	width: 100%;
-
 }
-.services-into-text{
+.services-info-title {
 	margin-bottom: 24px;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 1.2;
-  color: #222;
+	color: #222;
 }
-.services-btn{
+.services-btn {
 	align-items: center;
 	display: flex;
-	justify-content: center ;
+	justify-content: center;
 }
 /* SERVICES END */
 /* MAIN FOOTER START */
-.main-footer{
+.main-footer {
 	background-color: #0eb4c1;
 	padding-top: 64px;
 	padding-bottom: 64px;
 	color: #fff;
 }
- .main-footer-container{
+.main-footer-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
 }
 
-.main-footer-title{
+.main-footer-title {
 	margin-bottom: 40px;
 	font-weight: 700;
-  font-size: 36px;
+	font-size: 36px;
 	line-height: 1.2;
 }
 
-.main-footer-info-wrapper{
+.main-footer-info-wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.main-footer-btn:not(last-child){
+.main-footer-btn:not(last-child) {
 	margin-right: 40px;
 }
-.main-footer-btn{
+.main-footer-btn {
 	background-color: transparent;
-  border: 2px solid #fff;
+	border: 2px solid #fff;
 
 	text-decoration: none;
 }
 
-.main-footer-btn:hover{
+.main-footer-btn:hover {
 	background-color: #de2e54;
 	border: 2px solid #de2e54;
 	color: #fff;
 }
 /* MAIN FOOTER END */
+
+/* SITE FOOTER START */
+.site-footer{
+	padding-top: 24px;
+	padding-bottom: 24px;
+	color: #fff;
+	background-color: #222;
+}
+
+.site-footer-title{
+	color: #fff ;
+}
+
+.site-footer-title:hover{
+	color: #de2e54;
+}
+.site-footer-title:active{
+	color: #fff;
+}
+
+.site-footer-link{
+	color: #fff;
+}
+.site-footer-link:active{
+	color: #fff;
+}
+/* SITE FOOTER END */
